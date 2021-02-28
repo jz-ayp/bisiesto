@@ -27,7 +27,7 @@ if anho % 100 == 0:
 else:
     # Año no secular, tiene que ser divisible entre 4
 	if anho % 4 == 0:
-		resultado = "es"
+		resultado = "sí es"
 	else:
 		resultado = "no es"
 	
