@@ -1,44 +1,44 @@
 {
   "tests": [
     {
-      "name": "Test1",
+      "name": "no_bisiesto",
       "setup": "",
       "run": "LANG=en_US.utf8 timeout 3m python3 main.py",
-      "input": "54\r\n77\r\nSumar",
-      "output": "131",
+      "input": "2021",
+      "output": "no",
       "comparison": "included",
       "timeout": 1,
-      "points": null
+      "points": 1
     },
     {
-      "name": "Test2",
+      "name": "bisiesto_no_secular",
       "setup": "",
       "run": "LANG=en_US.utf8 timeout 3m python3 main.py",
-      "input": "54\r\n77\r\nRestar",
-      "output": "-23",
+      "input": "2020",
+      "output": "s\u00ed",
       "comparison": "included",
       "timeout": 1,
-      "points": null
+      "points": 1
     },
     {
-      "name": "Test3",
+      "name": "bisiesto_secular",
       "setup": "",
       "run": "LANG=en_US.utf8 timeout 3m python3 main.py",
-      "input": "54\r\n77\r\nMultiplicar",
-      "output": "4158",
+      "input": "2000",
+      "output": "s\u00ed",
       "comparison": "included",
       "timeout": 1,
-      "points": null
+      "points": 1
     },
     {
-      "name": "Test4",
+      "name": "secular_no_bisiesto",
       "setup": "",
       "run": "LANG=en_US.utf8 timeout 3m python3 main.py",
-      "input": "54\r\n77\r\nDividir",
-      "output": "0.7012987",
+      "input": "2100",
+      "output": "no",
       "comparison": "included",
       "timeout": 1,
-      "points": null
+      "points": 1
     }
   ]
 }
