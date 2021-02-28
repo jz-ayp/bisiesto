@@ -1,0 +1,44 @@
+{
+  "tests": [
+    {
+      "name": "Test1",
+      "setup": "",
+      "run": "LANG=en_US.utf8 timeout 3m python3 main.py",
+      "input": "54\r\n77\r\nSumar",
+      "output": "131",
+      "comparison": "included",
+      "timeout": 1,
+      "points": null
+    },
+    {
+      "name": "Test2",
+      "setup": "",
+      "run": "LANG=en_US.utf8 timeout 3m python3 main.py",
+      "input": "54\r\n77\r\nRestar",
+      "output": "-23",
+      "comparison": "included",
+      "timeout": 1,
+      "points": null
+    },
+    {
+      "name": "Test3",
+      "setup": "",
+      "run": "LANG=en_US.utf8 timeout 3m python3 main.py",
+      "input": "54\r\n77\r\nMultiplicar",
+      "output": "4158",
+      "comparison": "included",
+      "timeout": 1,
+      "points": null
+    },
+    {
+      "name": "Test4",
+      "setup": "",
+      "run": "LANG=en_US.utf8 timeout 3m python3 main.py",
+      "input": "54\r\n77\r\nDividir",
+      "output": "0.7012987",
+      "comparison": "included",
+      "timeout": 1,
+      "points": null
+    }
+  ]
+}
