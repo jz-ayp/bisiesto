@@ -1,6 +1,6 @@
-# `Nombre del tema`
+# Estructuras de decisión
 
-## Ejercicio: `<Título del ejercicio>`
+## Ejercicio: Año bisiesto
 
 ## Objetivos
 - Formular una solución efectiva a un problema que incorpora `<recursion>, <user-defined functions>, <iteration>, <conditionals>`.
@@ -12,20 +12,23 @@
 - Codificar el algoritmo en un programa correcto de Python.
 - Identificar y ejecutar los casos de prueba pertinentes y suficientes para verificar la funcionalidad de la solución propuesta.
 
-- `Recognize, Identify, Select, Analyze, Differentiate, Distinguish, Diagram, Examine, Outline, Subdivide, Understand, Demonstrate, Illustrate, Represent, Interpret, Evaluate, Apply, Assess, Chart, Construct, Develop, Implement, Prepare, Provide, Compute, Contribute, Determine, Establish, Include, Produce, Show, Combine, Design, Make, Plan, Compose, Create, Devise, Formulate, `
-
 ## Instrucciones
 - Elabora el análisis y el algoritmo ***antes de escribir el código***. Utiliza un diagrama de flujo para representar tu algoritmo e ilustrar su lógica.
     - [diagrams.net](https://app.diagrams.net/) es una herramienta gratuita y fácil de usar con la que puedes crear diagramas de flujo. 
     - Puedes ver un ejemplo de como subir diagramas de flujo a GitHub [aquí](https://youtu.be/oy5nhA7QpNI).
 
-- **Diseña un programa para `<...>`**.
+- **Diseña un programa para determinar si un año es o no bisiesto.**. Según al Wikipedia:
+> Año bisiesto es el divisible entre 4, salvo que sea año secular &mdash;último de cada siglo, terminado en «00»&mdash;, en cuyo caso ha de ser divisible entre 400. 
 
 - Codifica tu solución en el archivo [`main.py`](/main.py).
    
 - Utiliza los siguientes ejemplos para dar formato a tus entradas y salidas `<user prompt> <output> <file>`:
   ```
-  <format example>
+  Introduzca un año: 2021
+  2021 no es un año bisiesto
+  
+  Introduzca un año: 2020
+  2020 sí es un año bisiesto
   ```
   
 - Prueba tu programa corriéndolo varias veces con diferentes entradas. Verifica que tu algoritmo produzca las salidas correctas. Pon atención especial a los casos que pudieran ser problemáticos de manejar (casos límite).
@@ -56,9 +59,8 @@
 ## Casos de prueba de ejemplo
 | Entradas | Salidas |
 |:---------|:--------|
-| `entrada11`<br>`entrada12` | `salida11`<br>`salida12`<br>`salida13` |
-| `entrada21` | `salida21`<br>`salida22` |
-| `entrada31`<br>`entrada32`<br>`entrada33`  | `salida21`<br>`salida22` |
+| `2020` | `2020 sí es un año bisiesto` |
+| `2021` | `2021 no es un año bisiesto` |
 
 ## Rúbrica
 Verifica tu entrega contra esta rúbrica para maximizar tu calificación. Los puntos se indican en porcentaje.
