@@ -3,7 +3,7 @@
 ## Ejercicio: Año bisiesto
 
 ## Objetivos
-- Formular una solución efectiva a un problema que incorpora estructuras de decisión.
+- Formular una solución efectiva a un problema que incorpora estructuras de decisión múltiples o anidadas y expresiones lógicas compuestas.
 - Interpretar adecuadamente los requisitos de solución de un problema a partir de su descripcion en lenguaje natural.
 - Generar, a partir del análisis del problema:
     - La identificación correcta de las entradas y salidas requeridas, y
@@ -15,7 +15,8 @@
 ## Instrucciones
 - Elabora el análisis y el algoritmo ***antes de escribir el código***. Utiliza un diagrama de flujo para representar tu algoritmo e ilustrar su lógica.
     - [diagrams.net](https://app.diagrams.net/) es una herramienta gratuita y fácil de usar con la que puedes crear diagramas de flujo. 
-    - Puedes ver un ejemplo de como subir diagramas de flujo a GitHub [aquí](https://youtu.be/oy5nhA7QpNI).
+    - Con la extensión Draw<span>.</span>io Integration de Henning Dietrichs puedes utilizar diagrams.net directamente desde VS Code. Si creas tu archivo con la extensión `.drawio.png`, tu diagrama quedará automáticamente en formato png pero será un archivo editable.
+    - Si decides utilizar directamente el sitio [diagrams.net](https://app.diagrams.net/), puedes ver un ejemplo de cómo subir los diagramas de flujo a GitHub [aquí](https://youtu.be/oy5nhA7QpNI).
 
 - **Diseña un programa para determinar si un año es o no bisiesto**. Según la Wikipedia:
 > Año bisiesto es el divisible entre 4, salvo que sea año secular &mdash;último de cada siglo, terminado en «00»&mdash;, en cuyo caso ha de ser divisible entre 400. 
@@ -48,7 +49,7 @@
   ```
   
 ## Entrega
-1. Completa este y el resto de los ejercicios y compila, para cada ejercicio, el enunciado, análisis, diagrama de flujo y código, en un informe tal como se describe en los [requisitos para entrega de tareas](https://canvas.iteso.mx/courses/12856/modules/items/418369) en Canvas. También los puedes consultar [aquí](/report/report_example.pdf). No olvides incluir portada y conclusiones.
+1. Completa este y el resto de los ejercicios y compila, para cada ejercicio, el enunciado, análisis, diagrama de flujo y código, en un informe tal como se describe en los [requisitos para entrega de tareas](/report/report_example.pdf) en Canvas. No olvides incluir portada y conclusiones.
 
 2. Agrega el diagrama de flujo a la carpeta [`flowchart`](/flowchart) (puedes ver un [ejemplo de cómo se hace](https://youtu.be/oy5nhA7QpNI)).
 
@@ -73,7 +74,8 @@ Verifica tu entrega contra esta rúbrica para maximizar tu calificación. Los pu
 | Formato de salidas:<br>- conforme al ejemplo en las instrucciones. | 5 |
 | Diagrama de flujo:<br>- es claro y legible,<br>- corresponde con la lógica del programa,<br>- usa las formas geométricas correctas, y<br>- está en formato png<br>[Cómo subir diagramas de flujo a GitHub](https://youtu.be/oy5nhA7QpNI) | 15 |
 | Pruebas de ejecución:<br>- son suficientes para comprobar la funcionalidad del programa,<br>- al menos una de las capturas de pantalla muestra el escritorio completo, y<br>- son legibles. | 15 |
-| Funcionalidad:<br>- pasa los casos de prueba de ejemplo, y<br>- pasa los casos de prueba reservados por el profesor. | 30 |
+| Técnica:<br>- se utilizaron las técnicas indicadas para la solución (por ejemplo, uso de determinadas estructuras, uso de funciones). | 5 |
+| Funcionalidad:<br>- pasa los casos de prueba de ejemplo, y<br>- pasa los casos de prueba reservados por el profesor. | 25 |
 
 Estos puntajes son equivalentes, aproximadamente, a la siguiente ponderación:
 - Presentación: 20%
