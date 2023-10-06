@@ -3,7 +3,7 @@
     {
       "name": "no_bisiesto",
       "setup": "",
-      "run": "LANG=en_US.utf8 timeout 3m python3 main.py",
+      "run": "LANG=en_US.utf8 timeout 3m python3 bisiesto.py",
       "input": "2021",
       "output": "no",
       "comparison": "included",
@@ -13,7 +13,7 @@
     {
       "name": "bisiesto_no_secular",
       "setup": "",
-      "run": "LANG=en_US.utf8 timeout 3m python3 main.py",
+      "run": "LANG=en_US.utf8 timeout 3m python3 bisiesto.py",
       "input": "2020",
       "output": "s\u00ed",
       "comparison": "included",
@@ -23,7 +23,7 @@
     {
       "name": "bisiesto_secular",
       "setup": "",
-      "run": "LANG=en_US.utf8 timeout 3m python3 main.py",
+      "run": "LANG=en_US.utf8 timeout 3m python3 bisiesto.py",
       "input": "2000",
       "output": "s\u00ed",
       "comparison": "included",
@@ -33,7 +33,7 @@
     {
       "name": "secular_no_bisiesto",
       "setup": "",
-      "run": "LANG=en_US.utf8 timeout 3m python3 main.py",
+      "run": "LANG=en_US.utf8 timeout 3m python3 bisiesto.py",
       "input": "2100",
       "output": "no",
       "comparison": "included",
